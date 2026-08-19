@@ -1,51 +1,54 @@
-# Lifeline – Donor–Receiver Aggregation Platform
+# Life-Link – Donor–Receiver Aggregation Platform
 
-Lifeline is a web-based donor–receiver aggregation platform designed to provide a centralized interface for connecting donors and receivers. The project focuses on creating a clear, intuitive, and structured user experience for managing interactions between the two sides.
+Life-Link is a web-based donor–receiver aggregation platform designed to connect donors and receivers through a centralized interface. The project focuses on providing a clear, simple, and user-friendly interaction flow.
 
 ## Features
 
-* **Donor–Receiver Platform:** Provides a centralized interface for connecting donors and receivers.
-* **Modular React Components:** Built the frontend using reusable and modular React components.
-* **User-Friendly Interface:** Structured the interface to make navigation and interaction easier.
-* **Clear User Flow:** Organized information and interface elements to improve the overall user experience.
-* **Responsive Frontend:** Designed the interface to work across different screen sizes.
+* **Donor–Receiver Connection:** Provides a centralized platform for connecting donors and receivers.
+* **React-Based Interface:** Developed using React for a dynamic web experience.
+* **Navigation:** Uses React Router for handling navigation between different views.
+* **User-Friendly Design:** Organizes the interface to make interactions clear and easy to follow.
+* **Modular Frontend:** Uses React components to structure and manage the user interface.
 
 ## Tech Stack
 
-* **Frontend:** React.js
-* **Languages:** JavaScript, HTML, CSS
-* **Development:** Component-based architecture
+* **React.js** – Frontend development
+* **React Router DOM** – Client-side navigation
+* **JavaScript** – Application logic
+* **HTML & CSS** – Structure and styling
+* **npm** – Package and dependency management
 
+## Project Structure
 
-## How It Works
+```text
+life-link/
+├── node_modules/
+│   ├── cookie/
+│   ├── react/
+│   ├── react-dom/
+│   ├── react-router/
+│   ├── react-router-dom/
+│   ├── scheduler/
+│   └── set-cookie-parser/
+├── package.json
+├── package-lock.json
+├── .gitattributes
+├── .DS_Store
+└── README.md
+```
 
-The platform provides a centralized web interface where users can interact according to their role as a donor or receiver.
+> **Note:** `node_modules` contains the installed project dependencies and is normally not included in a GitHub repository. It is recommended to add `node_modules/` to `.gitignore`.
 
-1. Users access the Lifeline platform.
-2. The interface provides role-specific information and interactions.
-3. Donors and receivers can navigate through the available platform features.
-4. Modular React components handle different parts of the interface.
-5. The structured layout helps users complete their intended actions with minimal navigation.
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-* Node.js
-* npm
-
-### Installation
+## Installation
 
 Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd Lifeline
+cd life-link
 ```
 
-Install the dependencies:
+Install the required dependencies:
 
 ```bash
 npm install
@@ -57,26 +60,20 @@ Start the development server:
 npm start
 ```
 
-The application will then be available through the local development server.
+## Project Objective
 
-## Key Highlights
-
-* Developed a **React-based web interface** for donor–receiver interaction.
-* Used **modular and reusable frontend components**.
-* Focused on **clarity, usability, and intuitive navigation**.
-* Organized the interface to provide a smoother **user interaction flow**.
+The main objective of Life-Link is to create a centralized digital platform that simplifies interaction between donors and receivers. The interface is structured to improve accessibility, clarity, and the overall user experience.
 
 ## Future Enhancements
 
-Possible future improvements include:
-
 * User authentication and role-based access
 * Database integration
-* Real-time donor–receiver matching
+* Donor and receiver profiles
 * Search and filtering functionality
+* Real-time matching
 * Notifications and communication features
-* Deployment as a production web application
+* Deployment as a production-ready web application
 
 ## License
 
-This project is intended for educational and development purposes.
+This project is developed for educational and academic purposes.
